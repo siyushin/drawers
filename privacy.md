@@ -4,7 +4,7 @@ This Privacy Policy is for Drawers, a work and version management tool. Drawer d
 
 ## User Content
 
-All text files, images, and other files displayed in Drawers are kept in a local folder on a device. At no time is any user content sent to  or obtained by developer of Dawers, or any third party.
+All text files, images, and other files displayed in Drawers are kept in a local folder on user's hard driver. At no time is any user content sent to  or obtained by developer of Dawers, or any third party.
 
 ## Changes
 
