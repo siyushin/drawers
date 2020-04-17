@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<!-- <link rel="stylesheet" href="lib/css/monokai.css"> -->
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body style="background-image: url(images/bg.jpg); background-size: cover; background-repeat: no-repeat;">
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<section>
+					<div><img src="images/logo.png" height="256px" class="plain"></div>
+					<h1 style="text-transform: capitalize;">Drawers</h1>
+					<div>Work and Version Management Tool for Writers</div>
+					<div>
+						<div><img src="images/mas.png" height="50px" class="plain"></div>
+						<div style="font-size: smalla; color: gainsboro;"> Drawers for Windows is Coming Soon...</div>
+					</div>
+				</section>
+
+				<section>
+					<h2><i>Drawers</i> is a version management tool for writers</h2>
+					<div>Organize and manage your work;</div>
+					<div>Create and manage branch copies of your work;</div>
+					<div>Make and manage backups of your work.</div>
+				</section>
+
+				<section>
+					<img src="images/1.png" class="plain">
+					<h3>Organize and Manage Your Work with Drawers</h3>
+				</section>
+
+				<section>
+					<img src="images/2.png" class="plain">
+					<h3>Create  and Manage Branch Copies of Your Work</h3>
+				</section>
+
+				<section>
+					<img src="images/3.png" class="plain">
+					<h3>Retrace the Revision History of All Files in Your Work</h3>
+				</section>
+
+				<section>
+					<img src="images/4.png" class="plain">
+					<h3>Compose with Your Favorite Editor and File Format</h3>
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			hash: true,
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/highlight/highlight.js' },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+	</script>
+</body>
+
+</html>
